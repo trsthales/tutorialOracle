@@ -1,0 +1,48 @@
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Generated build artifacts
+bin/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven specific files (if using Maven)
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle specific files (if using Gradle)
+.gradle/
+build/
+*.iml
+.idea/
+
+# Other common ignored files
+# Local configuration files
+*.properties.local
+
+# Sensitive files (e.g., passwords, API keys)
+# You might want to be more specific here depending on your project
+config/
+credentials/
